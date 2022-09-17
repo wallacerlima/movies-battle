@@ -2,6 +2,25 @@ version: "3"
 services:
   movies-battle-api:
     image: movies-battle-api
-    build: .
+    build: ./movies-battle-api
     ports:
       - "8080:8080"
+    networks:
+      - network
+  movies-api:
+    image: movies-api
+    build: ./movies-api
+    ports:
+      - "8081:8081"
+    networks:
+      - network
+  service-discovery:
+    image: service-discovery
+    build: ./service-discovery
+    ports:
+      - "8761:8761"
+    networks:
+      - network
+networks:
+  network:
+    name: network
