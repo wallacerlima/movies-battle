@@ -2,6 +2,8 @@
 
 Rest API for movies battle game. Developed with the Java programming language and the Spring Boot Framework.
 
+![arquitetura](case-arq.drawio.png)
+
 ## Technologies 
 
 - [Spring Boot](https://spring.io/projects/spring-boot) - Development Framework for the Java Language.
