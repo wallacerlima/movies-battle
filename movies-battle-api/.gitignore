@@ -13,6 +13,7 @@ local.properties
 .classpath
 .gitattributes
 .project
+.DS_Store
 
 # External tool builders
 .externalToolBuilders/
@@ -58,6 +59,12 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
