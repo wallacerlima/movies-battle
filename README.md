@@ -30,13 +30,14 @@ Rest API for movies battle game. Developed with the Java programming language an
  
 ## Installation
 
- - Clone the project: `$git clone https://github.com/wallacerlima/movies-battle-api.git`
- - After completing the download of the project, access the directory: `$cd movies-battle-api/`
+ - Clone the project: `$git clone https://github.com/wallacerlima/movies-battle.git`
+ - After completing the download of the project, access the directory: `$cd movies-battle/`
  - At the root of the project run the following command: `chmod 777 docker-run.sh` and then `$./docker-run.sh`
  
 ## Documentation
 
-You can access OpenAPI documentation through this URL: http://localhost:8080/swagger-ui/index.html
+You can access OpenAPI documentation for movies-battle-api through this URL: http://localhost:8081/swagger-ui/index.html
+You can access OpenAPI documentation for movies-api through this URL: http://localhost:8080/swagger-ui/index.html
 
 ## API description
 ### Authentication
