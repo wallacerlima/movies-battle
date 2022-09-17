@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+omdb:
+  api:
+    host: http://www.omdbapi.com
+    key: 9b7950e7

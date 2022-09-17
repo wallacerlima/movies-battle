@@ -1,0 +1,4 @@
+delete from player;
+insert into player (id, username, name, password, created_at) values ('21fa4e49-2a90-4da5-8b61-068aafd32851', 'jaumzin', 'João Carlos', '$2a$10$httDQt/j/giCYtdDSH9DNeoxHv5D94y1L95K4e5v3Gi9mUaSp0352', '2022-02-28 23:33:14.412059');
+insert into player (id, username, name, password, created_at) values ('21fa4e49-2a90-4da5-8b61-068aafd28654', 'maria3k', 'Maria Julia', '$2a$10$httDQt/j/giCYtdDSH9DNeoxHv5D94y1L95K4e5v3Gi9mUaSp0352', '2022-02-28 23:33:14.412059');
+insert into player (id, username, name, password, created_at) values ('21fa4e49-2a90-4da5-8b61-068aafd27624', 'wallacelima', 'Wallace Lima', '$2a$10$httDQt/j/giCYtdDSH9DNeoxHv5D94y1L95K4e5v3Gi9mUaSp0352', '2022-02-28 23:33:14.412059');

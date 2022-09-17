@@ -1,0 +1,11 @@
+create table match (id varchar(255) not null, finished_at timestamp, score bigint, remaining_attempts integer, started_at timestamp not null, player_id varchar(255), primary key (id));
+create table movie (id varchar(255) not null, genre varchar(255), imdb_rating decimal(19,2), imdb_votes integer, title varchar(255), year integer, primary key (id));
+create table player (id varchar(255) not null, created_at timestamp not null, name varchar(255), password varchar(255), username varchar(255), primary key (id));
+create table ranking (id varchar(255) not null, total_score bigint, player_id varchar(255), primary key (id));
+create table round (id varchar(255) not null, answered boolean, result integer, first_movie_id varchar(255) not null, match_id varchar(255) not null, second_movie_id varchar(255) not null, primary key (id));
+alter table player add constraint UK_o39xn8lmj05iew7d2tgw836jy unique (username);
+alter table match add constraint FKb4oph8kfacmm8xt55qdboc28 foreign key (player_id) references player;
+alter table ranking add constraint FKf7j03q1nhllokf62tkenddawo foreign key (player_id) references player;
+alter table round add constraint FKau1n7sibr2fsvp641o91fi82i foreign key (first_movie_id) references movie;
+alter table round add constraint FKct0sqbmarj19dpw8fu5cowqki foreign key (match_id) references match;
+alter table round add constraint FKth0ti2wxx2hjf0vccw4lf183x foreign key (second_movie_id) references movie;
