@@ -36,8 +36,7 @@ Rest API for movies battle game. Developed with the Java programming language an
  
 ## Documentation
 
-You can access OpenAPI documentation for movies-battle-api through this URL: http://localhost:8081/swagger-ui/index.html
-You can access OpenAPI documentation for movies-api through this URL: http://localhost:8080/swagger-ui/index.html
+You can access OpenAPI documentation for movies-battle-api through this URL: http://localhost:8080/swagger-ui/index.html
 
 ## API description
 ### Authentication
